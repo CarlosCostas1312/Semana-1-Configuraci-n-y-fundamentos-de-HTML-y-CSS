@@ -1,1 +1,1 @@
-Carlos le gusta la programacion
+Hola soy Carlos estoy aprendiendo desarrollo en frontend 
