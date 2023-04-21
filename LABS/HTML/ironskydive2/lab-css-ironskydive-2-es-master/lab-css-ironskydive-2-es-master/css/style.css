@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
-
-
+/* selector de classe @import para importar una URL */
 
 * {
     margin: 0;
@@ -9,11 +8,15 @@
 
 }
 
+/* selector de tipo universal */
+
 body {
     font-size: 10px;
     line-height: 3.5em;
     font-weight: 300;
 }
+
+/* selector especifico para todo el body */
 
 h1,
 h2,
@@ -22,15 +25,17 @@ h4,
 h5,
 h6 {
     font-family: 'Roboto Condensed',
-
 }
 
+/* selector para todos los titulos */
 
 h1 {
     font-size: 9em;
     text-align: center;
     text-transform: uppercase;
 }
+
+/* seleector para modificar los titulos h1 */
 
 h2 {
     font-size: 5em;
@@ -40,13 +45,16 @@ h2 {
     text-shadow: #020819 8px -20px 9px;
 }
 
+/* selector para modificar los titulos h2 */
+
 h3 {
     font-size: 4.2em;
     text-align: center;
     line-height: 1em;
     ;
-
 }
+
+/* selector para modificar los titulos h3 */
 
 h4 {
     font-size: 1.5em;
@@ -54,11 +62,14 @@ h4 {
     line-height: 1em;
 }
 
+/* selector para modificar los titulos h4 */
+
 h5 {
     font-size: 1.2em;
     line-height: 1em;
 }
 
+/* selector para modificar los titulos h5 */
 
 .nav-bar {
     background-color: rgb(25, 33, 41);
@@ -67,39 +78,39 @@ h5 {
 
 }
 
+/* selector para modificar todo el navegador  */
+
 nav a {
     color: white;
     text-decoration: none;
     font-size: 2em;
 }
 
-nav ul li {
-    display: inline;
-}
+/* selector para modificar los enlaces del navegador  */
 
 #nav-text li {
     padding-left: 30px;
     padding-right: 30px;
+    display: inline;
 }
+
+/* selector para modificar la lista del navegador  */
 
 .header {
     position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
-
-
-
-
-
-
     background-image: url(../../../imageneslab2/fondo.jpg)
 }
 
+/* selector para identificar toda la cabezera */
 
 .sob {
-    margin-top: 30px;
+    margin-top: 50px;
 }
+
+/* selector para poder manipular el texto  */
 
 .quote {
     font-size: 2.5em;
@@ -107,6 +118,7 @@ nav ul li {
     padding-left: 20px;
 }
 
+/* selector para poder manipular el texto */
 .dark-background {
     background-color: rgb(25, 33, 41);
     color: white;
@@ -115,6 +127,7 @@ nav ul li {
 
 }
 
+/* selector para darle color al fondo de las diferentes secciones */
 
 
 
@@ -123,6 +136,8 @@ nav ul li {
     font-weight: 100;
     text-align: center;
 }
+
+/* selector para darle estilos a los diferentes parrafos de la primera seccion */
 
 .link-btn {
     background-color: rgb(67, 163, 230);
@@ -134,25 +149,31 @@ nav ul li {
     padding: 10px;
     border-radius: 5px;
 
+
 }
 
+/* selector para darle estilo a los links de la primera seccion */
 .info-general-text {
     text-align: center;
-   margin-top: 30px;
-   margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 
 }
 
-.info-general-text a{ 
+/* selector para darle estiloa los articulos de la primera seccion */
+
+.info-general-text a {
     margin-bottom: 40px;
-
 }
+
+/* selector para darle margen a los enlaces */
 
 .service-box {
     font-size: 1.7em;
     text-align: center;
 }
 
+/* selector para darle estilo a los articulos de la segunda seccion */
 .service-box img {
     position: 0 0;
     height: 125px;
@@ -166,32 +187,50 @@ nav ul li {
     text-align: center;
 }
 
+/* selector para darle estilo al parrafo de la tercera seccion */
 #team .member-name {
     font-size: 1.5em;
     height: 700;
 }
+
+/* selector para darle estilo a los nombres de la tercera seccion */
+
+.table {
+    text-align: center;
+    margin: 50px;
+    height: 700;
+    font-size: 1.9em;
+}
+
+
 
 #team img {
     width: 250px;
     height: 180px;
 }
 
+/* selector para darle estilo a la imagen de la tercera seccion */
 .footer {
     text-align: center;
     font-size: 1.9em;
     text-decoration: none;
 }
 
+/* selector para darle estilo al pie de pagina  */
 .address {
     font-size: 0.8;
     font-weight: normal;
-    
-    }
 
-.list-address{
+}
+
+/* selector para darle estilo a la direccion del pie de pagina */
+.list-address {
     list-style: none;
 }
 
+/* selector para darle estilo a la lista del pie de pagina */
 .footer a {
-    text-decoration:none;
+    text-decoration: none;
 }
+
+/* selector para darle estilo a los enlaces del pie de pagina */
