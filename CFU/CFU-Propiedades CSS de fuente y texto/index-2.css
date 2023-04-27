@@ -1,0 +1,27 @@
+.header {
+    text-transform: uppercase;
+}
+
+.class-p {
+    text-decoration: line-through;
+}
+
+.class-div {
+    text-align: center;
+}
+
+.class-ul {
+    text-indent: 50px;
+}
+
+.class-ol {
+    line-height: 2.5;
+}
+
+li {
+    letter-spacing: 2px;
+}
+
+a {
+    word-spacing: 5px;
+}
